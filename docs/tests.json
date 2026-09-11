@@ -7,6 +7,7 @@
     "alpha": true,
     "hidden_rgb": true,
     "roi": true,
+    "roi_max_error": 7.152557373046875e-06,
     "reproducible": true
   },
   {
@@ -17,6 +18,7 @@
     "alpha": true,
     "hidden_rgb": true,
     "roi": true,
+    "roi_max_error": 1.430511474609375e-06,
     "reproducible": true
   },
   {
@@ -27,6 +29,7 @@
     "alpha": true,
     "hidden_rgb": true,
     "roi": true,
+    "roi_max_error": 3.635883331298828e-06,
     "reproducible": true
   },
   {
@@ -37,6 +40,7 @@
     "alpha": true,
     "hidden_rgb": true,
     "roi": true,
+    "roi_max_error": 3.4570693969726562e-06,
     "reproducible": true
   },
   {
@@ -47,6 +51,7 @@
     "alpha": true,
     "hidden_rgb": true,
     "roi": true,
+    "roi_max_error": 5.632638931274414e-06,
     "reproducible": true
   }
 ]

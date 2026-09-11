@@ -27,9 +27,9 @@ for name in NAMES:
  # Tile + halo gives identical scene-coordinate output; include negative origin.
  src=rng.random((130,150,4),dtype=np.float32);src[:,:,3]=1
  p=[85,12,24,18,12,35,7];full=run(name,src,p,origin=(-30,-40));tile=run(name,src[10:120,10:140],p,origin=(-20,-30))
- print(name,"ROI",float(np.max(abs(full[50:80,50:100]-tile[40:70,40:90]))));assert np.max(abs(full[50:80,50:100]-tile[40:70,40:90]))<1e-3
+ roi_error=float(np.max(abs(full[50:80,50:100]-tile[40:70,40:90])));assert roi_error<1e-4
  # Tiny input changes are measured, not claimed to prove flicker-free video.
  shifted=src.copy();shifted[:,:,:3]+=1e-4
  stability=float(np.mean(abs(run(name,src)-run(name,shifted))))
- results.append(dict(effect=name,cases=count,baseline_max_error=maxerr,perturbation_mean_error=stability,alpha=True,hidden_rgb=True,roi=True,reproducible=True))
+ results.append(dict(effect=name,cases=count,baseline_max_error=maxerr,perturbation_mean_error=stability,alpha=True,hidden_rgb=True,roi=True,roi_max_error=roi_error,reproducible=True))
 print(json.dumps(results,indent=2));(ROOT/'docs/tests.json').write_text(json.dumps(results,indent=2))

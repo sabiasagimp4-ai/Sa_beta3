@@ -34,3 +34,7 @@ for row,name in enumerate(NAMES):
 sheet.save(out/'comparison.png')
 (out/'parameters.json').write_text(json.dumps(dict(source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),source_size=[src.shape[1],src.shape[0]],renderer='Production HLSL scalar cores compiled as C++ (not YMM4 GPU)',presets=parameters),ensure_ascii=False,indent=2))
 (out/'benchmark.json').write_text(json.dumps(dict(platform=platform.platform(),threads=os.environ.get('OMP_NUM_THREADS'),size=[src.shape[1],src.shape[0]],optimized_statistic='median of 3 after warmup',baseline_statistic='single run',effects=report),ensure_ascii=False,indent=2))
+
+# Rebuild labels in a portable Latin font when Japanese fonts are unavailable.
+import subprocess
+subprocess.run([sys.executable,str(ROOT/"tests/contact_sheet.py"),str(out)],check=True)

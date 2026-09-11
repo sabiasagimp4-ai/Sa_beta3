@@ -1,0 +1,237 @@
+{
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "threads": "4",
+  "size": [
+    1536,
+    1152
+  ],
+  "optimized_statistic": "median of 3 after warmup",
+  "baseline_statistic": "single run",
+  "effects": [
+    {
+      "effect": "SaChromaticZipper",
+      "timings": [
+        {
+          "preset": "通常",
+          "optimized_ms": 791.7799870000408,
+          "baseline_ms": 1451.203038000017,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.007556261960417032
+        },
+        {
+          "preset": "弱め・自然",
+          "optimized_ms": 655.1127630000337,
+          "baseline_ms": 1409.9272880000626,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.0007070402498356998
+        },
+        {
+          "preset": "強い",
+          "optimized_ms": 930.1282750000155,
+          "baseline_ms": 1828.5311259999162,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.03543512523174286
+        },
+        {
+          "preset": "極端・実験",
+          "optimized_ms": 945.6609759999992,
+          "baseline_ms": 1916.7080629999873,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.15343528985977173
+        },
+        {
+          "preset": "映像向け",
+          "optimized_ms": 908.5562709999522,
+          "baseline_ms": 1748.0525059999081,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.002746317069977522
+        }
+      ]
+    },
+    {
+      "effect": "SaPetalGraft",
+      "timings": [
+        {
+          "preset": "通常",
+          "optimized_ms": 718.4463559999585,
+          "baseline_ms": 1513.9320739999675,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.01240999810397625
+        },
+        {
+          "preset": "弱め・自然",
+          "optimized_ms": 723.9159279999967,
+          "baseline_ms": 1404.3155419999493,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.002129507018253207
+        },
+        {
+          "preset": "強い",
+          "optimized_ms": 1043.1707940000479,
+          "baseline_ms": 1893.6032990000058,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.03295052796602249
+        },
+        {
+          "preset": "極端・実験",
+          "optimized_ms": 1216.9339110000692,
+          "baseline_ms": 2260.2411789999906,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.11875861138105392
+        },
+        {
+          "preset": "映像向け",
+          "optimized_ms": 901.6966990000128,
+          "baseline_ms": 1800.6199320000178,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.006858304142951965
+        }
+      ]
+    },
+    {
+      "effect": "SaChromaticBraid",
+      "timings": [
+        {
+          "preset": "通常",
+          "optimized_ms": 268.12311200001204,
+          "baseline_ms": 973.3192830000235,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.039549585431814194
+        },
+        {
+          "preset": "弱め・自然",
+          "optimized_ms": 256.3933180000504,
+          "baseline_ms": 938.7991610000199,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.00493970001116395
+        },
+        {
+          "preset": "強い",
+          "optimized_ms": 374.3902240000807,
+          "baseline_ms": 1285.2539340000249,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.09412245452404022
+        },
+        {
+          "preset": "極端・実験",
+          "optimized_ms": 314.5971730000383,
+          "baseline_ms": 1168.3828989999938,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.1872624307870865
+        },
+        {
+          "preset": "映像向け",
+          "optimized_ms": 359.3165139999428,
+          "baseline_ms": 1134.3525620000037,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.014379356056451797
+        }
+      ]
+    },
+    {
+      "effect": "SaMembraneFold",
+      "timings": [
+        {
+          "preset": "通常",
+          "optimized_ms": 191.86373399998047,
+          "baseline_ms": 840.3101239999842,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.010751133784651756
+        },
+        {
+          "preset": "弱め・自然",
+          "optimized_ms": 192.53300200000467,
+          "baseline_ms": 920.7556650000015,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.0048415325582027435
+        },
+        {
+          "preset": "強い",
+          "optimized_ms": 216.77018200000475,
+          "baseline_ms": 1155.5302250000068,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.015434701927006245
+        },
+        {
+          "preset": "極端・実験",
+          "optimized_ms": 265.7815520000213,
+          "baseline_ms": 1068.715060000045,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.01955525018274784
+        },
+        {
+          "preset": "映像向け",
+          "optimized_ms": 215.56911799996215,
+          "baseline_ms": 1155.9757850000096,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.009747173637151718
+        }
+      ]
+    },
+    {
+      "effect": "SaPigmentRelay",
+      "timings": [
+        {
+          "preset": "通常",
+          "optimized_ms": 596.3116620000619,
+          "baseline_ms": 1301.568639999914,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.030921753495931625
+        },
+        {
+          "preset": "弱め・自然",
+          "optimized_ms": 594.0586159999839,
+          "baseline_ms": 1281.753536999986,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.005864688660949469
+        },
+        {
+          "preset": "強い",
+          "optimized_ms": 831.1394920000339,
+          "baseline_ms": 1702.6459500000328,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.06529353559017181
+        },
+        {
+          "preset": "極端・実験",
+          "optimized_ms": 1045.2115299999605,
+          "baseline_ms": 1957.3083989999986,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.12106922268867493
+        },
+        {
+          "preset": "映像向け",
+          "optimized_ms": 776.7256230000612,
+          "baseline_ms": 1696.0214130000395,
+          "max_error": 0.0,
+          "mae": 0.0,
+          "change_mae": 0.021063195541501045
+        }
+      ]
+    }
+  ]
+}
