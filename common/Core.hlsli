@@ -35,5 +35,10 @@ Pixel finish(Pixel src,Pixel target,float activity) {
  outp.r=lerp(src.r,saturate(mean+(r-mean)*c+(b-g)*s)*src.a,strength);
  outp.g=lerp(src.g,saturate(mean+(g-mean)*c+(r-b)*s)*src.a,strength);
  outp.b=lerp(src.b,saturate(mean+(b-mean)*c+(g-r)*s)*src.a,strength);
+ // A restrained filmic tint keeps structural changes legible without washing out the subject.
+ float e=saturate(activity*1.8f);float lsrc=lum(src);float shadow=saturate((0.58f-lsrc)*1.8f);float light=saturate((lsrc-0.42f)*1.7f);
+ outp.r=saturate(outp.r + e*(shadow*0.008f + light*0.012f)*src.a);
+ outp.g=saturate(outp.g + e*(shadow*0.014f + light*0.006f)*src.a);
+ outp.b=saturate(outp.b + e*(shadow*0.028f - light*0.004f)*src.a);
  outp.a=src.a;return outp;
 }

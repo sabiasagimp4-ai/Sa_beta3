@@ -6,7 +6,7 @@ from runtime import *
 source=Path(sys.argv[1]);out=Path(sys.argv[2]);out.mkdir(parents=True,exist_ok=True)
 src=np.asarray(Image.open(source).convert('RGBA'),dtype=np.float32)/255;src[:,:,:3]*=src[:,:,3:]
 labels=['通常','弱め・自然','強い','極端・実験','映像向け']
-sets=[[85,36,24,18,12,35,7],[40,14,40,24,12,10,7],[100,80,16,8,16,70,7],[100,200,6,0,16,150,41],[65,28,42,22,16,18,7]]
+sets=[[78,42,20,10,16,28,7],[42,18,32,24,12,12,11],[94,76,16,8,16,68,19],[100,176,8,0,16,118,41],[68,34,30,16,12,24,17]]
 fontpaths=['/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc','/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf']
 font=next((ImageFont.truetype(f,21) for f in fontpaths if Path(f).exists()),ImageFont.load_default())
 cellw,cellh=384,288

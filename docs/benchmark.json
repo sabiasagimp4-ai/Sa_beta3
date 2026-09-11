@@ -13,43 +13,43 @@
       "timings": [
         {
           "preset": "通常",
-          "optimized_ms": 791.7799870000408,
-          "baseline_ms": 1451.203038000017,
+          "optimized_ms": 984.8592590001317,
+          "baseline_ms": 1848.8054360000206,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.007556261960417032
+          "change_mae": 0.007409249898046255
         },
         {
           "preset": "弱め・自然",
-          "optimized_ms": 655.1127630000337,
-          "baseline_ms": 1409.9272880000626,
+          "optimized_ms": 694.963564000318,
+          "baseline_ms": 1434.3776840000828,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.0007070402498356998
+          "change_mae": 0.0012608581455424428
         },
         {
           "preset": "強い",
-          "optimized_ms": 930.1282750000155,
-          "baseline_ms": 1828.5311259999162,
+          "optimized_ms": 978.086937000171,
+          "baseline_ms": 2013.7749940004142,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.03543512523174286
+          "change_mae": 0.030872933566570282
         },
         {
           "preset": "極端・実験",
-          "optimized_ms": 945.6609759999992,
-          "baseline_ms": 1916.7080629999873,
+          "optimized_ms": 996.0860770002,
+          "baseline_ms": 1877.2569490001842,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.15343528985977173
+          "change_mae": 0.12120158225297928
         },
         {
           "preset": "映像向け",
-          "optimized_ms": 908.5562709999522,
-          "baseline_ms": 1748.0525059999081,
+          "optimized_ms": 675.7404360000692,
+          "baseline_ms": 1360.3629690001071,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.002746317069977522
+          "change_mae": 0.004743778146803379
         }
       ]
     },
@@ -58,43 +58,43 @@
       "timings": [
         {
           "preset": "通常",
-          "optimized_ms": 718.4463559999585,
-          "baseline_ms": 1513.9320739999675,
+          "optimized_ms": 954.3199469999308,
+          "baseline_ms": 1882.3014029999285,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.01240999810397625
+          "change_mae": 0.01346548367291689
         },
         {
           "preset": "弱め・自然",
-          "optimized_ms": 723.9159279999967,
-          "baseline_ms": 1404.3155419999493,
+          "optimized_ms": 715.2405659999204,
+          "baseline_ms": 1431.9868810002845,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.002129507018253207
+          "change_mae": 0.0030842837877571583
         },
         {
           "preset": "強い",
-          "optimized_ms": 1043.1707940000479,
-          "baseline_ms": 1893.6032990000058,
+          "optimized_ms": 1104.423714999939,
+          "baseline_ms": 2073.740259999795,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.03295052796602249
+          "change_mae": 0.029592229053378105
         },
         {
           "preset": "極端・実験",
-          "optimized_ms": 1216.9339110000692,
-          "baseline_ms": 2260.2411789999906,
+          "optimized_ms": 1269.598981999934,
+          "baseline_ms": 2196.1720389999755,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.11875861138105392
+          "change_mae": 0.09602061659097672
         },
         {
           "preset": "映像向け",
-          "optimized_ms": 901.6966990000128,
-          "baseline_ms": 1800.6199320000178,
+          "optimized_ms": 727.9169059997912,
+          "baseline_ms": 1369.4492180002271,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.006858304142951965
+          "change_mae": 0.00976022519171238
         }
       ]
     },
@@ -103,43 +103,43 @@
       "timings": [
         {
           "preset": "通常",
-          "optimized_ms": 268.12311200001204,
-          "baseline_ms": 973.3192830000235,
+          "optimized_ms": 381.06756799970753,
+          "baseline_ms": 1259.0052859995922,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.039549585431814194
+          "change_mae": 0.030956828966736794
         },
         {
           "preset": "弱め・自然",
-          "optimized_ms": 256.3933180000504,
-          "baseline_ms": 938.7991610000199,
+          "optimized_ms": 282.0094440003231,
+          "baseline_ms": 954.0104840002641,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.00493970001116395
+          "change_mae": 0.006595103070139885
         },
         {
           "preset": "強い",
-          "optimized_ms": 374.3902240000807,
-          "baseline_ms": 1285.2539340000249,
+          "optimized_ms": 372.6083009996728,
+          "baseline_ms": 1241.6049359999306,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.09412245452404022
+          "change_mae": 0.0864185020327568
         },
         {
           "preset": "極端・実験",
-          "optimized_ms": 314.5971730000383,
-          "baseline_ms": 1168.3828989999938,
+          "optimized_ms": 370.0270119998095,
+          "baseline_ms": 1188.2442289997925,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.1872624307870865
+          "change_mae": 0.16834095120429993
         },
         {
           "preset": "映像向け",
-          "optimized_ms": 359.3165139999428,
-          "baseline_ms": 1134.3525620000037,
+          "optimized_ms": 284.9835560000429,
+          "baseline_ms": 1001.6037559998949,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.014379356056451797
+          "change_mae": 0.023283695802092552
         }
       ]
     },
@@ -148,43 +148,43 @@
       "timings": [
         {
           "preset": "通常",
-          "optimized_ms": 191.86373399998047,
-          "baseline_ms": 840.3101239999842,
+          "optimized_ms": 217.2030370002176,
+          "baseline_ms": 1160.4420459998437,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.010751133784651756
+          "change_mae": 0.011088047176599503
         },
         {
           "preset": "弱め・自然",
-          "optimized_ms": 192.53300200000467,
-          "baseline_ms": 920.7556650000015,
+          "optimized_ms": 189.05104099985692,
+          "baseline_ms": 926.0014440001214,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.0048415325582027435
+          "change_mae": 0.004935240373015404
         },
         {
           "preset": "強い",
-          "optimized_ms": 216.77018200000475,
-          "baseline_ms": 1155.5302250000068,
+          "optimized_ms": 223.8634010000169,
+          "baseline_ms": 1097.6176589997522,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.015434701927006245
+          "change_mae": 0.01436184998601675
         },
         {
           "preset": "極端・実験",
-          "optimized_ms": 265.7815520000213,
-          "baseline_ms": 1068.715060000045,
+          "optimized_ms": 222.88997300029223,
+          "baseline_ms": 1149.4214429999374,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.01955525018274784
+          "change_mae": 0.01862732321023941
         },
         {
           "preset": "映像向け",
-          "optimized_ms": 215.56911799996215,
-          "baseline_ms": 1155.9757850000096,
+          "optimized_ms": 188.75541299985343,
+          "baseline_ms": 851.0839840000699,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.009747173637151718
+          "change_mae": 0.010098658502101898
         }
       ]
     },
@@ -193,43 +193,43 @@
       "timings": [
         {
           "preset": "通常",
-          "optimized_ms": 596.3116620000619,
-          "baseline_ms": 1301.568639999914,
+          "optimized_ms": 789.5220750001499,
+          "baseline_ms": 1716.659293000248,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.030921753495931625
+          "change_mae": 0.034477684646844864
         },
         {
           "preset": "弱め・自然",
-          "optimized_ms": 594.0586159999839,
-          "baseline_ms": 1281.753536999986,
+          "optimized_ms": 578.8026730001548,
+          "baseline_ms": 1235.2590929999678,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.005864688660949469
+          "change_mae": 0.007940388284623623
         },
         {
           "preset": "強い",
-          "optimized_ms": 831.1394920000339,
-          "baseline_ms": 1702.6459500000328,
+          "optimized_ms": 836.225743000341,
+          "baseline_ms": 1770.829430000049,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.06529353559017181
+          "change_mae": 0.06040063872933388
         },
         {
           "preset": "極端・実験",
-          "optimized_ms": 1045.2115299999605,
-          "baseline_ms": 1957.3083989999986,
+          "optimized_ms": 996.8253150000237,
+          "baseline_ms": 1894.3060980000155,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.12106922268867493
+          "change_mae": 0.10340873152017593
         },
         {
           "preset": "映像向け",
-          "optimized_ms": 776.7256230000612,
-          "baseline_ms": 1696.0214130000395,
+          "optimized_ms": 600.9463790001064,
+          "baseline_ms": 1317.6734249996116,
           "max_error": 0.0,
           "mae": 0.0,
-          "change_mae": 0.021063195541501045
+          "change_mae": 0.02375180460512638
         }
       ]
     }
