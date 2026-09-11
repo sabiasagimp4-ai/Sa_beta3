@@ -1,0 +1,52 @@
+[
+  {
+    "effect": "SaChromaticZipper",
+    "cases": 25,
+    "baseline_max_error": 0,
+    "perturbation_mean_error": 7.465657108696178e-05,
+    "alpha": true,
+    "hidden_rgb": true,
+    "roi": true,
+    "reproducible": true
+  },
+  {
+    "effect": "SaPetalGraft",
+    "cases": 25,
+    "baseline_max_error": 0,
+    "perturbation_mean_error": 7.499938510591164e-05,
+    "alpha": true,
+    "hidden_rgb": true,
+    "roi": true,
+    "reproducible": true
+  },
+  {
+    "effect": "SaChromaticBraid",
+    "cases": 25,
+    "baseline_max_error": 0,
+    "perturbation_mean_error": 7.463396468665451e-05,
+    "alpha": true,
+    "hidden_rgb": true,
+    "roi": true,
+    "reproducible": true
+  },
+  {
+    "effect": "SaMembraneFold",
+    "cases": 25,
+    "baseline_max_error": 0,
+    "perturbation_mean_error": 7.471356366295367e-05,
+    "alpha": true,
+    "hidden_rgb": true,
+    "roi": true,
+    "reproducible": true
+  },
+  {
+    "effect": "SaPigmentRelay",
+    "cases": 25,
+    "baseline_max_error": 0,
+    "perturbation_mean_error": 7.500030187657103e-05,
+    "alpha": true,
+    "hidden_rgb": true,
+    "roi": true,
+    "reproducible": true
+  }
+]

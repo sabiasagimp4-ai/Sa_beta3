@@ -1,0 +1,5 @@
+**/bin/
+**/obj/
+*.so
+__pycache__/
+outputs/
