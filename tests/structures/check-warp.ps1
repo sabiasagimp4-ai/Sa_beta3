@@ -3,10 +3,8 @@ $ErrorActionPreference = 'Stop'
 $names = (Get-Content tests/structures/effects.json -Raw | ConvertFrom-Json).names
 New-Item -ItemType Directory warp-results -Force | Out-Null
 foreach ($name in $names) {
-  @"
-#define EFFECT_CORE "../../effects/$name/Core.hlsli"
-#include "compute.hlsl"
-"@ | Set-Content "tests/structures/$name.compute.hlsl"
+  $coreInclude = '#include "../../effects/' + $name + '/Core.hlsli"'
+  (Get-Content tests/structures/compute.hlsl -Raw).Replace('#include EFFECT_CORE', $coreInclude) | Set-Content "tests/structures/$name.compute.hlsl"
   @"
 #define EFFECT_CORE "../../effects/$name/Core.hlsli"
 #include "reference.cpp"
