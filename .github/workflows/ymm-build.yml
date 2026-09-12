@@ -51,7 +51,27 @@ jobs:
             if ($LASTEXITCODE -ne 0) { throw "$name build failed" }
           }
 
-      - name: Package five independent DLLs
+      - name: Enable MSVC for WARP validation
+        shell: pwsh
+        run: |
+          $vswhere = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+          $vs = & $vswhere -latest -products * -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationPath
+          & "$vs\Common7\Tools\Launch-VsDevShell.ps1" -Arch amd64 -HostArch amd64 -SkipAutomaticLocation
+          "PATH=$env:PATH" >> $env:GITHUB_ENV
+          "INCLUDE=$env:INCLUDE" >> $env:GITHUB_ENV
+          "LIB=$env:LIB" >> $env:GITHUB_ENV
+
+      - name: Validate production HLSL on Direct3D WARP
+        shell: pwsh
+        run: ./tests/structures/check-warp.ps1 -FxcPath $env:FXC_PATH
+
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: StructureWarpTests
+          path: warp-results/*.json
+
+      - name: Package independent DLLs
         shell: pwsh
         run: |
           Get-ChildItem effects -Directory | ForEach-Object {
@@ -61,9 +81,20 @@ jobs:
           }
           Copy-Item README.md artifact/
           Compress-Archive artifact/* SaBeta3Ymm.zip
+          $names = (Get-Content tests/structures/effects.json -Raw | ConvertFrom-Json).names
+          New-Item -ItemType Directory structures-package -Force | Out-Null
+          foreach ($name in $names) { Copy-Item "artifact/$name" structures-package/ -Recurse }
+          Copy-Item docs/structures/README.md structures-package/
+          Compress-Archive structures-package/* SaBeta3StructuresYmm.zip
 
       - uses: actions/upload-artifact@v7
         with:
           name: SaBeta3Ymm
           path: SaBeta3Ymm.zip
+          if-no-files-found: error
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: SaBeta3StructuresYmm
+          path: SaBeta3StructuresYmm.zip
           if-no-files-found: error

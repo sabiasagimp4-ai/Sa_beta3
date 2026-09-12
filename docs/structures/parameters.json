@@ -1,0 +1,635 @@
+{
+  "source_sha256": "91547b0d03fc73bb8749b50e08f308042df63605c4160ebafb260aaad6b9afe1",
+  "source_size": [
+    1536,
+    1152
+  ],
+  "renderer": "Production HLSL scalar kernels compiled verbatim as C++ (CPU, not YMM4 GPU capture)",
+  "presets": [
+    {
+      "file": "01_SaContourTunnel_01.png",
+      "effect": "SaContourTunnel",
+      "preset": "通常設定",
+      "properties": {
+        "Strength": 82,
+        "Radius": 48,
+        "Size": 24,
+        "Threshold": 10,
+        "Iterations": 12,
+        "Color": 28,
+        "Seed": 7,
+        "Stability": 70
+      },
+      "ui": {
+        "強さ": 82,
+        "変化範囲": 48,
+        "構造サイズ": 24,
+        "しきい値": 10,
+        "分割・探索数": 12,
+        "色相変化": 28,
+        "配置シード": 7,
+        "安定性": 70
+      }
+    },
+    {
+      "file": "01_SaContourTunnel_02.png",
+      "effect": "SaContourTunnel",
+      "preset": "弱め・自然",
+      "properties": {
+        "Strength": 42,
+        "Radius": 24.0,
+        "Size": 31.200000000000003,
+        "Threshold": 18,
+        "Iterations": 12,
+        "Color": 9.799999999999999,
+        "Seed": 7,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 42,
+        "変化範囲": 24.0,
+        "構造サイズ": 31.200000000000003,
+        "しきい値": 18,
+        "分割・探索数": 12,
+        "色相変化": 9.799999999999999,
+        "配置シード": 7,
+        "安定性": 90
+      }
+    },
+    {
+      "file": "01_SaContourTunnel_03.png",
+      "effect": "SaContourTunnel",
+      "preset": "強い設定",
+      "properties": {
+        "Strength": 96,
+        "Radius": 86.4,
+        "Size": 19.200000000000003,
+        "Threshold": 4,
+        "Iterations": 18,
+        "Color": 70,
+        "Seed": 7,
+        "Stability": 65
+      },
+      "ui": {
+        "強さ": 96,
+        "変化範囲": 86.4,
+        "構造サイズ": 19.200000000000003,
+        "しきい値": 4,
+        "分割・探索数": 18,
+        "色相変化": 70,
+        "配置シード": 7,
+        "安定性": 65
+      }
+    },
+    {
+      "file": "01_SaContourTunnel_04.png",
+      "effect": "SaContourTunnel",
+      "preset": "極端・実験",
+      "properties": {
+        "Strength": 100,
+        "Radius": 168.0,
+        "Size": 15.600000000000001,
+        "Threshold": 0,
+        "Iterations": 24,
+        "Color": 135,
+        "Seed": 17,
+        "Stability": 40
+      },
+      "ui": {
+        "強さ": 100,
+        "変化範囲": 168.0,
+        "構造サイズ": 15.600000000000001,
+        "しきい値": 0,
+        "分割・探索数": 24,
+        "色相変化": 135,
+        "配置シード": 17,
+        "安定性": 40
+      }
+    },
+    {
+      "file": "01_SaContourTunnel_05.png",
+      "effect": "SaContourTunnel",
+      "preset": "映像向け",
+      "properties": {
+        "Strength": 70,
+        "Radius": 38.400000000000006,
+        "Size": 27.599999999999998,
+        "Threshold": 14,
+        "Iterations": 12,
+        "Color": 18.2,
+        "Seed": 7,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 70,
+        "変化範囲": 38.400000000000006,
+        "構造サイズ": 27.599999999999998,
+        "しきい値": 14,
+        "分割・探索数": 12,
+        "色相変化": 18.2,
+        "配置シード": 7,
+        "安定性": 90
+      }
+    },
+    {
+      "file": "02_SaIrisCells_01.png",
+      "effect": "SaIrisCells",
+      "preset": "通常設定",
+      "properties": {
+        "Strength": 85,
+        "Radius": 44,
+        "Size": 52,
+        "Threshold": 8,
+        "Iterations": 12,
+        "Color": 38,
+        "Seed": 11,
+        "Stability": 70
+      },
+      "ui": {
+        "強さ": 85,
+        "変化範囲": 44,
+        "構造サイズ": 52,
+        "しきい値": 8,
+        "分割・探索数": 12,
+        "色相変化": 38,
+        "配置シード": 11,
+        "安定性": 70
+      }
+    },
+    {
+      "file": "02_SaIrisCells_02.png",
+      "effect": "SaIrisCells",
+      "preset": "弱め・自然",
+      "properties": {
+        "Strength": 42,
+        "Radius": 22.0,
+        "Size": 67.60000000000001,
+        "Threshold": 16,
+        "Iterations": 12,
+        "Color": 13.299999999999999,
+        "Seed": 11,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 42,
+        "変化範囲": 22.0,
+        "構造サイズ": 67.60000000000001,
+        "しきい値": 16,
+        "分割・探索数": 12,
+        "色相変化": 13.299999999999999,
+        "配置シード": 11,
+        "安定性": 90
+      }
+    },
+    {
+      "file": "02_SaIrisCells_03.png",
+      "effect": "SaIrisCells",
+      "preset": "強い設定",
+      "properties": {
+        "Strength": 96,
+        "Radius": 79.2,
+        "Size": 41.6,
+        "Threshold": 4,
+        "Iterations": 18,
+        "Color": 70,
+        "Seed": 11,
+        "Stability": 65
+      },
+      "ui": {
+        "強さ": 96,
+        "変化範囲": 79.2,
+        "構造サイズ": 41.6,
+        "しきい値": 4,
+        "分割・探索数": 18,
+        "色相変化": 70,
+        "配置シード": 11,
+        "安定性": 65
+      }
+    },
+    {
+      "file": "02_SaIrisCells_04.png",
+      "effect": "SaIrisCells",
+      "preset": "極端・実験",
+      "properties": {
+        "Strength": 100,
+        "Radius": 154.0,
+        "Size": 33.800000000000004,
+        "Threshold": 0,
+        "Iterations": 24,
+        "Color": 135,
+        "Seed": 21,
+        "Stability": 40
+      },
+      "ui": {
+        "強さ": 100,
+        "変化範囲": 154.0,
+        "構造サイズ": 33.800000000000004,
+        "しきい値": 0,
+        "分割・探索数": 24,
+        "色相変化": 135,
+        "配置シード": 21,
+        "安定性": 40
+      }
+    },
+    {
+      "file": "02_SaIrisCells_05.png",
+      "effect": "SaIrisCells",
+      "preset": "映像向け",
+      "properties": {
+        "Strength": 70,
+        "Radius": 35.2,
+        "Size": 59.8,
+        "Threshold": 12,
+        "Iterations": 12,
+        "Color": 24.7,
+        "Seed": 11,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 70,
+        "変化範囲": 35.2,
+        "構造サイズ": 59.8,
+        "しきい値": 12,
+        "分割・探索数": 12,
+        "色相変化": 24.7,
+        "配置シード": 11,
+        "安定性": 90
+      }
+    },
+    {
+      "file": "03_SaFacetBloom_01.png",
+      "effect": "SaFacetBloom",
+      "preset": "通常設定",
+      "properties": {
+        "Strength": 86,
+        "Radius": 64,
+        "Size": 44,
+        "Threshold": 10,
+        "Iterations": 8,
+        "Color": 24,
+        "Seed": 19,
+        "Stability": 65
+      },
+      "ui": {
+        "強さ": 86,
+        "変化範囲": 64,
+        "構造サイズ": 44,
+        "しきい値": 10,
+        "分割・探索数": 8,
+        "色相変化": 24,
+        "配置シード": 19,
+        "安定性": 65
+      }
+    },
+    {
+      "file": "03_SaFacetBloom_02.png",
+      "effect": "SaFacetBloom",
+      "preset": "弱め・自然",
+      "properties": {
+        "Strength": 42,
+        "Radius": 32.0,
+        "Size": 57.2,
+        "Threshold": 18,
+        "Iterations": 8,
+        "Color": 8.399999999999999,
+        "Seed": 19,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 42,
+        "変化範囲": 32.0,
+        "構造サイズ": 57.2,
+        "しきい値": 18,
+        "分割・探索数": 8,
+        "色相変化": 8.399999999999999,
+        "配置シード": 19,
+        "安定性": 90
+      }
+    },
+    {
+      "file": "03_SaFacetBloom_03.png",
+      "effect": "SaFacetBloom",
+      "preset": "強い設定",
+      "properties": {
+        "Strength": 96,
+        "Radius": 115.2,
+        "Size": 35.2,
+        "Threshold": 4,
+        "Iterations": 14,
+        "Color": 70,
+        "Seed": 19,
+        "Stability": 65
+      },
+      "ui": {
+        "強さ": 96,
+        "変化範囲": 115.2,
+        "構造サイズ": 35.2,
+        "しきい値": 4,
+        "分割・探索数": 14,
+        "色相変化": 70,
+        "配置シード": 19,
+        "安定性": 65
+      }
+    },
+    {
+      "file": "03_SaFacetBloom_04.png",
+      "effect": "SaFacetBloom",
+      "preset": "極端・実験",
+      "properties": {
+        "Strength": 100,
+        "Radius": 224.0,
+        "Size": 28.6,
+        "Threshold": 0,
+        "Iterations": 24,
+        "Color": 135,
+        "Seed": 29,
+        "Stability": 40
+      },
+      "ui": {
+        "強さ": 100,
+        "変化範囲": 224.0,
+        "構造サイズ": 28.6,
+        "しきい値": 0,
+        "分割・探索数": 24,
+        "色相変化": 135,
+        "配置シード": 29,
+        "安定性": 40
+      }
+    },
+    {
+      "file": "03_SaFacetBloom_05.png",
+      "effect": "SaFacetBloom",
+      "preset": "映像向け",
+      "properties": {
+        "Strength": 70,
+        "Radius": 51.2,
+        "Size": 50.599999999999994,
+        "Threshold": 14,
+        "Iterations": 8,
+        "Color": 15.600000000000001,
+        "Seed": 19,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 70,
+        "変化範囲": 51.2,
+        "構造サイズ": 50.599999999999994,
+        "しきい値": 14,
+        "分割・探索数": 8,
+        "色相変化": 15.600000000000001,
+        "配置シード": 19,
+        "安定性": 90
+      }
+    },
+    {
+      "file": "04_SaChromaticSuture_01.png",
+      "effect": "SaChromaticSuture",
+      "preset": "通常設定",
+      "properties": {
+        "Strength": 92,
+        "Radius": 70,
+        "Size": 28,
+        "Threshold": 6,
+        "Iterations": 12,
+        "Color": 48,
+        "Seed": 23,
+        "Stability": 75
+      },
+      "ui": {
+        "強さ": 92,
+        "変化範囲": 70,
+        "構造サイズ": 28,
+        "しきい値": 6,
+        "分割・探索数": 12,
+        "色相変化": 48,
+        "配置シード": 23,
+        "安定性": 75
+      }
+    },
+    {
+      "file": "04_SaChromaticSuture_02.png",
+      "effect": "SaChromaticSuture",
+      "preset": "弱め・自然",
+      "properties": {
+        "Strength": 42,
+        "Radius": 35.0,
+        "Size": 36.4,
+        "Threshold": 14,
+        "Iterations": 12,
+        "Color": 16.799999999999997,
+        "Seed": 23,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 42,
+        "変化範囲": 35.0,
+        "構造サイズ": 36.4,
+        "しきい値": 14,
+        "分割・探索数": 12,
+        "色相変化": 16.799999999999997,
+        "配置シード": 23,
+        "安定性": 90
+      }
+    },
+    {
+      "file": "04_SaChromaticSuture_03.png",
+      "effect": "SaChromaticSuture",
+      "preset": "強い設定",
+      "properties": {
+        "Strength": 96,
+        "Radius": 126.0,
+        "Size": 22.400000000000002,
+        "Threshold": 4,
+        "Iterations": 18,
+        "Color": 70,
+        "Seed": 23,
+        "Stability": 65
+      },
+      "ui": {
+        "強さ": 96,
+        "変化範囲": 126.0,
+        "構造サイズ": 22.400000000000002,
+        "しきい値": 4,
+        "分割・探索数": 18,
+        "色相変化": 70,
+        "配置シード": 23,
+        "安定性": 65
+      }
+    },
+    {
+      "file": "04_SaChromaticSuture_04.png",
+      "effect": "SaChromaticSuture",
+      "preset": "極端・実験",
+      "properties": {
+        "Strength": 100,
+        "Radius": 245.0,
+        "Size": 18.2,
+        "Threshold": 0,
+        "Iterations": 24,
+        "Color": 135,
+        "Seed": 33,
+        "Stability": 40
+      },
+      "ui": {
+        "強さ": 100,
+        "変化範囲": 245.0,
+        "構造サイズ": 18.2,
+        "しきい値": 0,
+        "分割・探索数": 24,
+        "色相変化": 135,
+        "配置シード": 33,
+        "安定性": 40
+      }
+    },
+    {
+      "file": "04_SaChromaticSuture_05.png",
+      "effect": "SaChromaticSuture",
+      "preset": "映像向け",
+      "properties": {
+        "Strength": 70,
+        "Radius": 56.0,
+        "Size": 32.199999999999996,
+        "Threshold": 10,
+        "Iterations": 12,
+        "Color": 31.200000000000003,
+        "Seed": 23,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 70,
+        "変化範囲": 56.0,
+        "構造サイズ": 32.199999999999996,
+        "しきい値": 10,
+        "分割・探索数": 12,
+        "色相変化": 31.200000000000003,
+        "配置シード": 23,
+        "安定性": 90
+      }
+    },
+    {
+      "file": "05_SaColorCilia_01.png",
+      "effect": "SaColorCilia",
+      "preset": "通常設定",
+      "properties": {
+        "Strength": 94,
+        "Radius": 85,
+        "Size": 26,
+        "Threshold": 6,
+        "Iterations": 16,
+        "Color": 32,
+        "Seed": 31,
+        "Stability": 75
+      },
+      "ui": {
+        "強さ": 94,
+        "変化範囲": 85,
+        "構造サイズ": 26,
+        "しきい値": 6,
+        "分割・探索数": 16,
+        "色相変化": 32,
+        "配置シード": 31,
+        "安定性": 75
+      }
+    },
+    {
+      "file": "05_SaColorCilia_02.png",
+      "effect": "SaColorCilia",
+      "preset": "弱め・自然",
+      "properties": {
+        "Strength": 42,
+        "Radius": 42.5,
+        "Size": 33.800000000000004,
+        "Threshold": 14,
+        "Iterations": 16,
+        "Color": 11.2,
+        "Seed": 31,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 42,
+        "変化範囲": 42.5,
+        "構造サイズ": 33.800000000000004,
+        "しきい値": 14,
+        "分割・探索数": 16,
+        "色相変化": 11.2,
+        "配置シード": 31,
+        "安定性": 90
+      }
+    },
+    {
+      "file": "05_SaColorCilia_03.png",
+      "effect": "SaColorCilia",
+      "preset": "強い設定",
+      "properties": {
+        "Strength": 96,
+        "Radius": 153.0,
+        "Size": 20.8,
+        "Threshold": 4,
+        "Iterations": 22,
+        "Color": 70,
+        "Seed": 31,
+        "Stability": 65
+      },
+      "ui": {
+        "強さ": 96,
+        "変化範囲": 153.0,
+        "構造サイズ": 20.8,
+        "しきい値": 4,
+        "分割・探索数": 22,
+        "色相変化": 70,
+        "配置シード": 31,
+        "安定性": 65
+      }
+    },
+    {
+      "file": "05_SaColorCilia_04.png",
+      "effect": "SaColorCilia",
+      "preset": "極端・実験",
+      "properties": {
+        "Strength": 100,
+        "Radius": 256,
+        "Size": 16.900000000000002,
+        "Threshold": 0,
+        "Iterations": 24,
+        "Color": 135,
+        "Seed": 41,
+        "Stability": 40
+      },
+      "ui": {
+        "強さ": 100,
+        "変化範囲": 256,
+        "構造サイズ": 16.900000000000002,
+        "しきい値": 0,
+        "分割・探索数": 24,
+        "色相変化": 135,
+        "配置シード": 41,
+        "安定性": 40
+      }
+    },
+    {
+      "file": "05_SaColorCilia_05.png",
+      "effect": "SaColorCilia",
+      "preset": "映像向け",
+      "properties": {
+        "Strength": 70,
+        "Radius": 68.0,
+        "Size": 29.9,
+        "Threshold": 10,
+        "Iterations": 16,
+        "Color": 20.8,
+        "Seed": 31,
+        "Stability": 90
+      },
+      "ui": {
+        "強さ": 70,
+        "変化範囲": 68.0,
+        "構造サイズ": 29.9,
+        "しきい値": 10,
+        "分割・探索数": 16,
+        "色相変化": 20.8,
+        "配置シード": 31,
+        "安定性": 90
+      }
+    }
+  ]
+}

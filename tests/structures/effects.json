@@ -1,0 +1,78 @@
+{
+  "names": [
+    "SaContourTunnel",
+    "SaIrisCells",
+    "SaFacetBloom",
+    "SaChromaticSuture",
+    "SaColorCilia"
+  ],
+  "japanese": [
+    "輪郭の空洞化",
+    "色の虹彩細胞",
+    "結晶のせり出し",
+    "色境界の縫合",
+    "色境界の繊毛"
+  ],
+  "defaults": {
+    "SaContourTunnel": [
+      82,
+      48,
+      24,
+      10,
+      12,
+      28,
+      7,
+      70
+    ],
+    "SaIrisCells": [
+      85,
+      44,
+      52,
+      8,
+      12,
+      38,
+      11,
+      70
+    ],
+    "SaFacetBloom": [
+      86,
+      64,
+      44,
+      10,
+      8,
+      24,
+      19,
+      65
+    ],
+    "SaChromaticSuture": [
+      92,
+      70,
+      28,
+      6,
+      12,
+      48,
+      23,
+      75
+    ],
+    "SaColorCilia": [
+      94,
+      85,
+      26,
+      6,
+      16,
+      32,
+      31,
+      75
+    ]
+  },
+  "parameters": [
+    "強さ",
+    "変化範囲",
+    "構造サイズ",
+    "しきい値",
+    "分割・探索数",
+    "色相変化",
+    "配置シード",
+    "安定性"
+  ]
+}

@@ -3,3 +3,8 @@
 *.so
 __pycache__/
 outputs/
+
+warp-results/
+structures-package/
+*.compute.hlsl
+*.warp.cpp
