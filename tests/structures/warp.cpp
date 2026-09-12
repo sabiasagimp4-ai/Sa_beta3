@@ -3,6 +3,8 @@
 #include <d3d11.h>
 #include <wrl/client.h>
 #include <vector>
+#include <string>
+#include <iterator>
 #include <fstream>
 #include <iostream>
 #include <stdexcept>
