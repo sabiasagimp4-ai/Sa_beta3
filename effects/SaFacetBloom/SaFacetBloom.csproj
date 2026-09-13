@@ -26,7 +26,7 @@
     <EmbeddedResource Include="$(IntermediateOutputPath)Shader.cso" LogicalName="SaFacetBloom.Shader.cso" />
   </ItemGroup>
 
-  <Target Name="CompileShaders" BeforeTargets="PrepareResources" Inputs="Shader.hlsl;Core.hlsli;../../common/structures/Core.hlsli;$(MSBuildProjectFullPath)" Outputs="$(IntermediateOutputPath)Shader.cso">
+  <Target Name="CompileShaders" BeforeTargets="PrepareResources" Inputs="Shader.hlsl;Core.hlsli;../../common/structures/Core.hlsli;../../common/Pixel.hlsli;../../common/Sampling.hlsli;$(MSBuildProjectFullPath)" Outputs="$(IntermediateOutputPath)Shader.cso">
     <Error Condition="!Exists('$(FxcPath)')" Text="Set FxcPath to Windows SDK fxc.exe" />
     <MakeDir Directories="$(IntermediateOutputPath)" />
     <Exec Command="&quot;$(FxcPath)&quot; /nologo /WX /I &quot;$(D2DIncludePath)&quot; /D D2D_INPUT_COUNT=1 /T ps_4_0 /E main /Fo &quot;$(IntermediateOutputPath)Shader.cso&quot; &quot;$(MSBuildProjectDirectory)\Shader.hlsl&quot;" />

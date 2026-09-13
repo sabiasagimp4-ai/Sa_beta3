@@ -6,7 +6,12 @@ using YukkuriMovieMaker.Player.Video;
 namespace SaChromaticBraid;
 internal sealed class SaChromaticBraidShader(IGraphicsDevicesAndContext devices)
  : D2D1CustomShaderEffectBase(Create<SaChromaticBraidShader.Impl>(devices)) {
- public void SetParameter(int index,float value)=>SetValue(index,value);
+ readonly float[] lastValues=new float[7];
+ readonly bool[] initialized=new bool[7];
+ public void SetParameter(int index,float value){
+  if(initialized[index] && lastValues[index]==value)return;
+  SetValue(index,value);lastValues[index]=value;initialized[index]=true;
+ }
  [CustomEffect(1)]
  private sealed class Impl : D2D1CustomShaderEffectImplBase<Impl> {
   Constants constants=new(){Radius=36,Size=24,Iterations=12};

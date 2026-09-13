@@ -1,12 +1,10 @@
 // Production scalar kernel, shared verbatim with the portable C++ renderer.
-struct Pixel { float r; float g; float b; float a; };
+#include "../Pixel.hlsli"
 struct Guide { float nx; float ny; float edge; float rg; float gb; };
-Pixel sampleAt(float x,float y);
-Pixel originalAt(float x,float y);
-float red(Pixel p){return p.a>0.000001f?p.r/p.a:0.0f;}
-float green(Pixel p){return p.a>0.000001f?p.g/p.a:0.0f;}
-float blue(Pixel p){return p.a>0.000001f?p.b/p.a:0.0f;}
-float luminance(Pixel p){return red(p)*.2126f+green(p)*.7152f+blue(p)*.0722f;}
+float red(Pixel p){return channelR(p);}
+float green(Pixel p){return channelG(p);}
+float blue(Pixel p){return channelB(p);}
+float luminance(Pixel p){return lum(p);}
 float smooth01(float x){x=saturate(x);return x*x*(3.0f-2.0f*x);}
 float gate(float v){return smooth01((v-threshold)/(.045f+.2f*stability));}
 float contrast(Pixel a,Pixel b){float r=red(a)-red(b),g=green(a)-green(b),c=blue(a)-blue(b);return sqrt((r*r+g*g+c*c)/3.0f)*min(a.a,b.a);}
