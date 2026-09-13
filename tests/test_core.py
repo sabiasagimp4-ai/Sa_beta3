@@ -15,12 +15,18 @@ for name in NAMES:
   for p in settings:
    a=run(name,src,p);b=run(name,src,p,True)
    assert np.isfinite(a).all()
+   visible=src[:,:,3]>0
+   assert (a[visible,:3]>=-1e-7).all() and (a[visible,:3]<=src[visible,3:]+1e-7).all(), (name,"invalid premultiplied RGB")
    assert np.array_equal(a[:,:,3],src[:,:,3])
    mask=src[:,:,3]==0;assert np.array_equal(a[mask],src[mask])
    assert np.array_equal(a,run(name,src,p))
    if p[0]==0 or p[1]==0:assert np.array_equal(a,src)
    err=float(np.max(abs(a-b)));maxerr=max(maxerr,err);assert err<1e-6
    count+=1
+ # Strength must interpolate the entire treatment, including the finishing tint.
+ p0=DEFAULT.copy();p0[0]=50;p1=DEFAULT.copy();p1[0]=100
+ half=run(name,random,p0);whole=run(name,random,p1)
+ assert np.max(abs(half-(whole+random)*.5))<2e-7,(name,"nonlinear strength")
  # Transparent hidden RGB must not influence neighbouring visible pixels.
  clean=edge.copy();clean[clean[:,:,3]==0,:3]=0
  a=run(name,edge);b=run(name,clean);assert np.array_equal(a[edge[:,:,3]>0],b[edge[:,:,3]>0])

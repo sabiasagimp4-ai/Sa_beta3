@@ -1,0 +1,128 @@
+[
+  {
+    "repository": "Sa_beta",
+    "branch": "main",
+    "sha": "c0ee220133c662cb86623dd72e9db43d57ac736c",
+    "ahead_of_main": 0,
+    "behind_main": 0
+  },
+  {
+    "repository": "Sa_beta2",
+    "branch": "claude/ymm4-image-effect-plugin-1kvkpb",
+    "sha": "5579e67f71fb35a03570d2e5622ad77cadc3f35b",
+    "ahead_of_main": 1,
+    "behind_main": 0
+  },
+  {
+    "repository": "Sa_beta2",
+    "branch": "main",
+    "sha": "8c64a33bf1c5c89b91d7f80ce4fbbce64d423fdd",
+    "ahead_of_main": 0,
+    "behind_main": 0
+  },
+  {
+    "repository": "Sa_beta3",
+    "branch": "main",
+    "sha": "ec97cc9438c2b24a1b22deebf87020b715514baa",
+    "ahead_of_main": 0,
+    "behind_main": 0
+  },
+  {
+    "repository": "Sa_aohue",
+    "branch": "claude/plugin-feature-proposal-cwz9db",
+    "sha": "61eec0b6d524914b7d721b2dc3c8ad9db0e2697f",
+    "ahead_of_main": 4,
+    "behind_main": 8
+  },
+  {
+    "repository": "Sa_aohue",
+    "branch": "codex/ymm-color-bleed",
+    "sha": "86c0687a0e3d8ea11b9aafb9008da6b09bb645ba",
+    "ahead_of_main": 0,
+    "behind_main": 3
+  },
+  {
+    "repository": "Sa_aohue",
+    "branch": "codex/ymm-line-controls",
+    "sha": "e5aaf011b029613ea33fce82d812683db7a5ab6e",
+    "ahead_of_main": 0,
+    "behind_main": 4
+  },
+  {
+    "repository": "Sa_aohue",
+    "branch": "codex/ymm-v02",
+    "sha": "da4628aab0f9029f954d0c01163372ffc4d046b3",
+    "ahead_of_main": 0,
+    "behind_main": 5
+  },
+  {
+    "repository": "Sa_aohue",
+    "branch": "main",
+    "sha": "e3d077f9b4711ac8e7c2268ba777c9a4eac697c6",
+    "ahead_of_main": 0,
+    "behind_main": 0
+  },
+  {
+    "repository": "Sa_aohue",
+    "branch": "master",
+    "sha": "88ab06d4b25a15b91eb0ade1756ceb00579a6802",
+    "ahead_of_main": 0,
+    "behind_main": 16
+  },
+  {
+    "repository": "Sa_aohue",
+    "branch": "perf/preserve-output-efficiency",
+    "sha": "1655f11b3a73a786b64a3877f1a92db4cb3460f2",
+    "ahead_of_main": 0,
+    "behind_main": 15
+  },
+  {
+    "repository": "Sa_aohue",
+    "branch": "research/ymm-boundary-color",
+    "sha": "496fdf6c99ecfe6153560d2dfccc6906c071422a",
+    "ahead_of_main": 1,
+    "behind_main": 4
+  },
+  {
+    "repository": "Sa_aohue",
+    "branch": "ymm-plugin-port",
+    "sha": "0fcfc6063d5d671863db1f620c0e183224b26c8d",
+    "ahead_of_main": 0,
+    "behind_main": 14
+  },
+  {
+    "repository": "Sa_displacedge",
+    "branch": "claude/ymm4-image-processing-plugin-qknux5",
+    "sha": "6af45212a1a3d4307e6dc756b100ddaf6790cb77",
+    "ahead_of_main": 4,
+    "behind_main": 0
+  },
+  {
+    "repository": "Sa_displacedge",
+    "branch": "codex/displacedge-fast-flow",
+    "sha": "f406de0f08df2c362e373297db9edad6a014c4b5",
+    "ahead_of_main": 24,
+    "behind_main": 0
+  },
+  {
+    "repository": "Sa_displacedge",
+    "branch": "codex/perf-slider-range-20260909",
+    "sha": "3160e208e58b28b7c7dc5e6b6e24474bc58ed762",
+    "ahead_of_main": 14,
+    "behind_main": 0
+  },
+  {
+    "repository": "Sa_displacedge",
+    "branch": "codex/sa-displacedge-optimize",
+    "sha": "46301959842272329365f40d97af23d746a6952b",
+    "ahead_of_main": 17,
+    "behind_main": 0
+  },
+  {
+    "repository": "Sa_displacedge",
+    "branch": "main",
+    "sha": "4ddd282f803262a20538623a1a8767bbe91599e3",
+    "ahead_of_main": 0,
+    "behind_main": 0
+  }
+]
